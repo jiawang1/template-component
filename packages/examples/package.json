@@ -1,0 +1,30 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "react component",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./script/server.js"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "example"
+  ],
+  "devDependencies": {
+    "@storybook/react": "4.0.0-alpha.3",
+    "blurb": "1.0.1",
+    "eslint": "4.19.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "5.2.0",
+    "prettier": "1.13.0",
+    "prop-types": "^15.6.1",
+    "webpack": "^4.4.1"
+  },
+  "files": [
+    "/dist/**"
+  ],
+  "private":true,
+  "author": "",
+  "license": "UNLICENSED"
+}
