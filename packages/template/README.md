@@ -1,4 +1,4 @@
-# blurb
+# <%= componentName %>
 
 this component can render text asynchromized, so could be used to resolve i18n related issue.
 

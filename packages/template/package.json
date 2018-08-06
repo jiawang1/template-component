@@ -1,17 +1,16 @@
 {
-  "name": "blurb",
-  "version": "1.0.1",
-  "description": "react component for rendering i18n information",
+  "name": "<%= componentName %>",
+  "version": "<%= componentVersion %>",
+  "description":"<%= componentDescription %>",
   "main": "./src/index.js",
-  "module": "dist/blurb.min.js",
+  "module": "dist/<%= componentName %>.min.js",
   "scripts": {
     "build": "node ./script/build.js",
     "start":"start-storybook -p 9001 -c ./storybook"
   },
   "keywords": [
     "react",
-    "component",
-    "blurb"
+    "component"
   ],
   "peerDependencies": {
     "react": ">=16.0.0",
