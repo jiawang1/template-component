@@ -1,0 +1,8 @@
+import React from 'react';
+import { storiesOf } from '@storybook/react';
+import <%= componentName %> from './<%= componentName %>';
+
+storiesOf('<%= componentName %>', module)
+    .add('test scenario 1',() => {
+      return <<%= componentName %> />;
+    })

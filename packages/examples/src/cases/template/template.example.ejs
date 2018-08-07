@@ -1,0 +1,14 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import <%= componentName %> from '<%= componentName %>';
+
+const Demo = () => (
+    <<%= componentName %> />
+);
+
+const root = document.createElement('div');
+root.className = 'app-root';
+root.id = 'app-root';
+document.body.appendChild(root);
+
+ReactDOM.render(<Demo />, root);

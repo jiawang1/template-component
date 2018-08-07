@@ -22,7 +22,6 @@ yarn-error.log*
 lerna-debug.log
 
 **.swp
-**package-lock.json
 
 # develop config
 .vscode
